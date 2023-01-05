@@ -1,0 +1,29 @@
+.button-container {
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 10px;
+
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  background-color: rgba(0, 40, 95, 1);
+  border-radius: 5px;
+  height: 40px;
+  width: 174px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.button-container p {
+  padding-top: 10px;
+  font-size: 18px;
+  color: rgba(88, 88, 88, 1);
+  margin: 0px;
+}
